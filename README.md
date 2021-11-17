@@ -62,7 +62,7 @@
 - App integration -> App client settings -> Enabled Identity Providers - Cognito User Pool
 - Callback URL(s) [https://example.com/logout]
 - OAuth 2.0 -> Allowed OAuth Flows - Authorization code grant -Implicit grant
-- Allowed OAuth Scopes - phone	- email	- openid
+- Allowed OAuth Scopes	- email	- openid
 - Save Changes
 
 - Domain name -> Domain prefix [diolive] -> Save
