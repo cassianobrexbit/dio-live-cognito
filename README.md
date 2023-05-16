@@ -40,11 +40,13 @@
 ### No POSTMAN
 
 - Add Request -> Method POST -> Copiar o endpoint gerado no API Gateway
-- Body -> Raw -> JSON -> Adicionar o seguinte body
+- Body -> Raw -> JSON -> Adicionar o seguinte body para inserir um novo item
 ```
 {
-  "id": "003",
-  "price": 600
+  "price": 99.99,
+  "name": "Produto X",
+  "amount": 10,
+  "picture": "url-image-here"
 }
 ```
 - Send
@@ -78,8 +80,8 @@
 
 - Add request -> Authorization
 - Type - OAuth 2.0
-- Callback URL [https://example.com/logout]
-- Auth URL [https://diolive.auth.sa-east-1.amazoncognito.com/login]
+- Callback URL [https://alvarobarros.com/callback]
+- Auth URL [https://diocognit.auth.us-east-2.amazoncognito.com/login]
 - Client ID - obter o Client ID do Cognito em App clients
 - Scope [email - openid]
 - Client Authentication [Send client credentials in body]
